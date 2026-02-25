@@ -1,16 +1,19 @@
 {
   "name": "cacheract-demo",
   "version": "1.0.1",
- "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/AdnaneKhan/CacheractDemo"
   },
   "description": "Cacheract Hello World Package - it just says hello...right?",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "preinstall": "echo \"__PRT_POC_MARKER__ run_id=$GITHUB_RUN_ID event=$GITHUB_EVENT_NAME\""
   },
-  "keywords": ["poc"],
+  "keywords": [
+    "poc"
+  ],
   "author": "Adnan Khan",
   "license": "MIT",
   "dependencies": {
